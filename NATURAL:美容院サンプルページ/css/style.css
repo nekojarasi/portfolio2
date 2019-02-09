@@ -1,0 +1,190 @@
+header,.content {
+    width: 960px;
+    margin: auto;
+}
+#global-logo img {
+    width: 150px;
+}
+footer {
+    margin: 200px 0;
+}
+footer small {
+    float: left;
+    color: #ffffff;
+    margin-left: 30px;
+}
+footer ul {
+    float: right;
+    margin-right: 30px;
+    
+}
+footer ul li{
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+}
+footer li a {
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#index {
+    background-image: url(../images/kabe7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#index .content img {
+    margin: 0 auto;
+    display: block;
+} 
+a:hover img {
+    opacity: 0.7;
+}
+#index .index-nav img {
+    width: 200px;
+    margin: 0;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#index .index-nav-img {
+    height: 300px;
+    width: 800px;
+    margin: 0 auto;
+}
+#index .nav-img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#index .nav-img:nth-child(2n) {
+    margin-top: 100px;
+}
+body {
+    background-image: url(../images/kabe7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
+aside li img {
+    width: 150px;
+}
+aside li {
+    list-style: none;
+    width: 150px;
+}
+aside li:nth-child(2n) {
+    float: right;
+}
+aside li:nth-child(2n-1) {
+    float: left;
+}
+
+aside ul {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+aside {
+    width: 200;
+    margin-left: 0;
+    position: fixed;
+    left: -200;
+    
+}
+button {
+    background-color: transparent;
+    border: transparent;
+}
+aside button img {
+    width: 50px;
+}
+aside button {
+    left: 200px;
+    position: absolute;
+    top: 300px;
+}
+
+#concept {
+    background-image: url(../images/kabe7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: solid 0.03em #ffffff;
+}
+.main {
+    color: #ffffff;
+}
+#concept  p,#reservation p {
+    text-align: center;
+}
+#concept .main-text {
+    margin-top: 150px;
+    line-height: 2;
+}
+#index h1 {
+    font-size: 100px;
+    font-weight: 30;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: none;
+    margin-top: -100px;
+}
+.main {
+    margin-top: 100px;
+}
+#reservation p {
+    line-height: 3;
+}
+#reservation th, #reservation td {
+    color: #ffffff;
+    padding-top: 30px;
+}
+#reservation table {
+    margin: auto;
+}
+#reservation td {
+    padding-left: 80px;
+}
+#reservation th {
+    padding-right: 80px;
+}
+#reservation .main-text {
+    margin-top: 100px;
+}
+#style .main li {
+    list-style: none;
+    padding-top: 50px;
+}
+#style .left {
+    float: left;
+}
+#style .right {
+    float: right;
+}
+#style .main li img {
+    width: 400px;
+}
+#style .main ul {
+    margin: 0;
+}
+#style .main li:nth-child(4n-2) {
+    padding-left: 50px;
+}
+#style .main li:nth-child(4n) {
+    padding-right: 50px;
+}
+
